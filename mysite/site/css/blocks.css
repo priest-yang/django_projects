@@ -1,0 +1,79 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+
+#one {
+  width: 30%; /* Set the width to 25% */
+  position: absolute; 
+
+  /* Create the border */
+  border-width: 10px; 
+  border-style: solid;
+  border-color: rgb(21, 21, 173); 
+
+  top: 50%;
+  right: 5%; /* Set the right border width to 25% */
+  padding : 15px
+}
+
+#two{
+  width: 30%; /* Set the width to 25% */
+  position: absolute; 
+
+  /* Create the border */
+  border-width: 10px; 
+  border-style: solid;
+  border-color: rgb(45, 211, 16); 
+
+  top: 5%;
+  right: 5%; /* Set the right border width to 25% */
+  padding : 15px
+}
+
+#three{
+  width: 30%; /* Set the width to 25% */
+  position: absolute; 
+
+  border-width: 10px; 
+  border-style: solid;
+  border-color: rgb(214, 118, 21); 
+
+  top: 5%;
+  left: 5%; /* Set the right border width to 25% */
+  padding : 15px
+}
+
+#four{
+  width: 30%; /* Set the width to 25% */
+  position: absolute; 
+
+  border-width: 10px; 
+  border-style: solid;
+  border-color: rgb(206, 201, 67); 
+
+  top: 50%;
+  left: 5%; /* Set the right border width to 25% */
+  padding : 15px
+}
+
+#link a{
+  position: absolute;
+  text-decoration: none;
+  background-color: rgb(206, 201, 67); 
+  color: white;
+  top: 40%;
+  left: 45%; /* Set the right border width to 25% */
+  padding : 10px
+
+}
+
+
+
+
