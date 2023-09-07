@@ -1,0 +1,26 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+
+#one {
+  width: 25%; /* Set the width to 25% */
+  height: 30%; /* Set the height as needed */
+  position: relative; /* Make sure the element is positioned relative to its parent */
+
+  /* Create the border */
+  border-width: 10px; /* Start with a 0-width border */
+  border-style: solid; /* Use a solid border style */
+  border-color: blue; /* Set the border color to transparent */
+
+  /* Position the border in the right-down corner */
+  border-right-width: 25%; /* Set the right border width to 25% */
+  border-bottom-width: 25%; /* Set the bottom border width to 25% */
+  position: relative; /* Ensure the position is relative */
+}
