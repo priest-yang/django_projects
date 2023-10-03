@@ -33,12 +33,15 @@ ALLOWED_HOSTS = [ '*' ]
 
 INSTALLED_APPS = [
     "polls.apps.PollsConfig",
+    "home.apps.HomeConfig",
+    "hello.apps.HelloConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'django_extensions', # Add
 ]
 
 MIDDLEWARE = [
