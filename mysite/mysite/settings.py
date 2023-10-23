@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'django_extensions',
     'cats.apps.CatsConfig',
+    'movies.apps.MoviesConfig',
     
 ]
 
